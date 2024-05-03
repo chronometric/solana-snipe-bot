@@ -1,0 +1,17 @@
+{
+  "name": "Solana-sniper-bot",
+  "version": "1.1.15",
+  "scripts": {
+    "buy": "node buy.js",
+    "rebuild": "rmdir /s /q node_modules && del package-lock.json && npm cache clean --force && npm install"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.1.0",
+    "@azure/keyvault-secrets": "^4.8.0",
+    "@solana/web3.js": "1.10.0",
+    "axios": "^0.21.1",
+    "bs58": "^4.0.1",
+    "chalk": "^4.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
